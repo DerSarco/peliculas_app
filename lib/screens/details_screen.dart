@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:peliculas_app/widgets/widgets.dart';
 
 class DetailsScreen extends StatelessWidget {
   const DetailsScreen({Key? key}) : super(key: key);
@@ -15,7 +16,11 @@ class DetailsScreen extends StatelessWidget {
           _CustomAppBar(),
           SliverList(
             delegate: SliverChildListDelegate([
-              _PosterAndTiitle(),
+              _PosterAndTitle(),
+              _Overview(),
+              _Overview(),
+              _Overview(),
+              CastingCards()
             ]),
           )
         ],
@@ -36,6 +41,7 @@ class _CustomAppBar extends StatelessWidget {
         titlePadding: EdgeInsets.all(0),
         centerTitle: true,
         title: Container(
+          padding: EdgeInsets.only(bottom: 10),
           width: double.infinity,
           alignment: Alignment.bottomCenter,
           color: Colors.black12,
@@ -54,7 +60,7 @@ class _CustomAppBar extends StatelessWidget {
   }
 }
 
-class _PosterAndTiitle extends StatelessWidget {
+class _PosterAndTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final TextTheme textTheme = Theme.of(context).textTheme;
@@ -113,6 +119,20 @@ class _PosterAndTiitle extends StatelessWidget {
             ],
           )
         ],
+      ),
+    );
+  }
+}
+
+class _Overview extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
+      child: Text(
+        'Adventure at the habitat revolutionaryred alert was the galaxy of metamorphosis, consumed to a photonic parasite.',
+        textAlign: TextAlign.justify,
+        style: Theme.of(context).textTheme.subtitle1
       ),
     );
   }
