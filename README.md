@@ -1,16 +1,14 @@
-# peliculas_app
+# Peliculas APP
 
-A new Flutter project.
+Proyecto para consumir la API [TheMovieDB](https://www.themoviedb.org/documentation/api). Curso de Fernando Herrera.
 
-## Getting Started
+# Requisitos
 
-This project is a starting point for a Flutter application.
+- Flutter obvio, si no, esto no corre ð
+- Emulador de Android Studio/xCode (si tienes Mac)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Algo más
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Puedes forkear libremente este proyecto, es de libre uso, ya que es un ejemplo básico de consumo HTTP y usos de widgets variados.
+
