@@ -4,7 +4,7 @@ Proyecto para consumir la API [TheMovieDB](https://www.themoviedb.org/documentat
 
 # Requisitos
 
-- Flutter obvio, si no, esto no corre 😋
+- [Flutter](https://docs.flutter.dev/get-started/install) obvio, si no, esto no corre 😋
 - Emulador de Android Studio/xCode (si tienes Mac)
 
 
