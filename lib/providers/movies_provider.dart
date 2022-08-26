@@ -47,7 +47,7 @@ class MoviesProvider extends ChangeNotifier {
     //ToDO revisar el mapa
     print("pidiendo info al servidor - cast");
 
-    if (moviesCast[movieId] != null) {z
+    if (moviesCast[movieId] != null) {
 
       print("data en persistencia");
       return moviesCast[movieId]!;
